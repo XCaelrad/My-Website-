@@ -48,12 +48,12 @@ body {
     padding: 30px;
     max-width: 1200px;
     margin: 0 auto;
-    }
-    
+}
+
 .text-section {
     max-width: 50%;
-    }
-    
+}
+
 .text-section .label {
     display: inline-block;
     padding: 5px 10px;
@@ -62,14 +62,14 @@ body {
     font-weight: bold;
     font-size: 12px;
     margin-bottom: 20px;
-    }
-    
+}
+
 .text-section h1 {
     font-size: 48px;
     line-height: 1.2;
     margin-bottom: 20px;
-    }
-    
+}
+
 .text {
     display: flex;
     justify-content: space-between;
@@ -77,14 +77,11 @@ body {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
-    }
-    
+}
 
 .image-section img {
-        border-radius: 10px;
-        max-width: 350px;
-        height: auto;
-        object-fit: cover;
-    }
-
-
+    border-radius: 10px;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+}
