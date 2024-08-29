@@ -1,19 +1,23 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
     body {
-        padding: 10px 20px;
+        padding: 30px 30px;
+    }
+
+    .nav {
+        padding: 0%; 
     }
 
     .nav-link {
         display: none;
         flex-direction: column;
-        gap: 15px;
+        gap: 16px;
         background-color: #f9f9f9;
         position: absolute;
-        top: 70px;
-        right: 10px;
-        width: 200px;
-        padding: 10px;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        top: 5rem;
+        right: 1rem;
+        width: 12.5rem;
+        padding: 0.625rem; /*10px*/
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
     }
 
     .burger-menu {
@@ -25,14 +29,13 @@
     }
 
     .logo {
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 1.25rem; /* 20px */
         position: relative;
     }
 
     .container {
         flex-direction: column;
-        padding: 0px 30px 30px 30px; 
+        padding: 0%;
     }
 
     .text-section {
@@ -45,29 +48,38 @@
 
     .text-section h1 {
         text-align: left;
-        font-size: 53px;
+        font-size: 3.124rem;
         line-height: 1.2;
         margin: 0;
-        padding-bottom: 30px;
+        padding-bottom: 1.875rem;
+        padding-top: 1.875rem;
     }
 
     .label {
         display: inline-block;
-        padding: 5px 10px;
+        padding: 0.3125rem 0.625rem; /* 5px 10px */
         background-color: #f0f0f0;
         border-radius: 15px;
         font-weight: bold;
-        font-size: 12px;
-        margin-left: 20px;
+        font-size: 0.75rem; /* 12px */
+        margin-left: 1.25rem; /* 20px */
         position: absolute;
-        top: 30px;
-        right: 5px;
+        top: 1.875rem; /* 30px */
+        right: 0.3125rem; /* 5px */
     }
 
     .text {
         flex-direction: column;
-        font-size: 14px;
+        font-size: 1.125rem;
         text-align: center;
+        margin-top: 1.875rem;
+        gap: 25px;
+    }
+
+    .text p {
+        margin: 0%;
+        text-align: justify;
+
     }
 
     .image-section img {
