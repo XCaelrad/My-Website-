@@ -3,11 +3,6 @@
         padding: 10px 20px;
     }
 
-    .nav {
-        flex-direction: column;
-        padding: 20px;
-    }
-
     .nav-link {
         display: none;
         flex-direction: column;
@@ -32,25 +27,41 @@
     .logo {
         font-size: 20px;
         margin-bottom: 10px;
+        position: relative;
     }
 
     .container {
         flex-direction: column;
-        padding: 20px;
+        padding: 0px 30px 30px 30px; 
     }
 
     .text-section {
+        position: relative;
+        display: flex;
+        align-items: center;
         max-width: 100%;
         text-align: center;
     }
 
     .text-section h1 {
-        font-size: 32px;
+        text-align: left;
+        font-size: 53px;
+        line-height: 1.2;
+        margin: 0;
+        padding-bottom: 30px;
     }
 
-    .text-section .label {
-        font-size: 10px;
-        padding: 3px 7px;
+    .label {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #f0f0f0;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-left: 20px;
+        position: absolute;
+        top: 30px;
+        right: 5px;
     }
 
     .text {
@@ -61,6 +72,7 @@
 
     .image-section img {
         max-width: 100%;
-        border-radius: 5px;
+        border-radius: 15px;
+        /* padding-top: 30px; */
     }
 }
